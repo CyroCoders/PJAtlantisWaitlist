@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Sans+Mono&family=Oxygen+Mono&display=swap');
+
+html, body {
+    margin: 0;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#hero #hero-left {
+    width: 50vw;
+    background: #ACC8E5;
+    color: #112A46;
+    font-family: 'Arvo', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#hero #hero-right {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-left h1 {
+    font-size: 3em;
+    margin-top: 0;
+}
+
+#hero-left p {
+    margin-inline: 2vw;
+}
+
+#hero-left #form {
+    box-sizing: content-box !important;
+    border: 2px solid #112A46;
+    border-radius: 25px;
+    height: max-content;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#hero-left #form input{
+    border: none;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0;
+}
+
+#hero-left #form button{
+    border: none;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0;
+    background: #112A46;
+    color: #ACC8E5;
+    text-transform: capitalize;
+}
